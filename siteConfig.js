@@ -69,7 +69,7 @@ const siteConfig = {
   copyright:
     'Copyright © ' +
     new Date().getFullYear() +
-    'Viseo Technologies',
+    ' Viseo Technologies',
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks

@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'Overūse' /* title for your website */,
   tagline: 'A React Components Database and JavaScript utils',
-  url: 'https://overuse.it' /* your website url */,
+  url: 'https://llccrr.github.io/overuse' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
