@@ -1,9 +1,4 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+
 
 // See https://docusaurus.io/docs/site-config.html for all the possible
 // site configuration options.
@@ -22,7 +17,7 @@ const users = [
 
 const siteConfig = {
   title: 'Overūse' /* title for your website */,
-  tagline: 'A React Component Database (+ JavaScript utils)',
+  tagline: 'A React Components Database and JavaScript utils',
   url: 'https://overuse.it' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,9 +33,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Components'},
+    {doc: 'buttons', label: 'Components'},
     {doc: 'doc4', label: 'JavaScript'},
-    {page: 'help', label: 'Help'},
+    {page: 'buttons', label: 'Config'},
     {blog: true, label: 'Blog'},
   ],
 

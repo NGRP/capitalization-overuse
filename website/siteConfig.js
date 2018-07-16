@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Overūse' /* title for your website */,
-  tagline: 'A React Component Database (+ JavaScript utils)',
+  tagline: 'A React Components Database and JavaScript utils',
   url: 'https://overuse.it' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,9 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Components'},
+    {doc: 'buttons', label: 'Components'},
     {doc: 'doc4', label: 'JavaScript'},
-    {page: 'help', label: 'Help'},
+    {doc: 'doc3', label: 'Config'},
     {blog: true, label: 'Blog'},
   ],
 
@@ -93,7 +93,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/NGRP/capitalization-overuse',
 };
 
 module.exports = siteConfig;

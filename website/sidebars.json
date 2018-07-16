@@ -1,8 +1,8 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Basic Components": ["buttons"],
+    "High-Order Components": ["withForm-1"],
+    "Libraries and Setup": ["redux-saga-setup"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

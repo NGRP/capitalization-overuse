@@ -76,13 +76,12 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
-        <Logo img_src={imgUrl('docusaurus.svg')} />
+        <Logo img_src={imgUrl('flame.png')} />
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
-            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+            <Button href={docUrl('buttons.html', language)}>React Components</Button>
+            <Button href={docUrl('doc2.html', language)}>JavaScript Utils</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -103,16 +102,16 @@ const Features = props => (
   <Block layout="fourColumn">
     {[
       {
-        content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        content: 'A React Component Database to win time between projects, re-usable components, High-Order components...',
+        image: imgUrl('ic-react.png'),
         imageAlign: 'top',
-        title: 'Feature One',
+        title: 'React Component',
       },
       {
-        content: 'The content of my second feature',
-        image: imgUrl('docusaurus.svg'),
+        content: 'JavaScript utils functions that you may want to use in many projects',
+        image: imgUrl('ic-javascript.png'),
         imageAlign: 'top',
-        title: 'Feature Two',
+        title: 'JavaScript',
       },
     ]}
   </Block>
@@ -122,8 +121,8 @@ const FeatureCallout = props => (
   <div
     className="productShowcaseSection paddingBottom"
     style={{textAlign: 'center'}}>
-    <h2>Feature Callout</h2>
-    <MarkdownBlock>These are features of this project</MarkdownBlock>
+    <h2>You can contribute</h2>
+    <MarkdownBlock>If you have any ideas to improve this concept, based on capitalization to win time over project, feel free to contribute</MarkdownBlock>
   </div>
 );
 
@@ -131,10 +130,10 @@ const LearnHow = props => (
   <Block background="light">
     {[
       {
-        content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        content: 'If you have any ideas to improve this concept, based on capitalization to win time over project, feel free to contribute',
+          image: imgUrl('github.png'),
         imageAlign: 'right',
-        title: 'Learn How',
+        title: 'You can contribute',
       },
     ]}
   </Block>
@@ -205,11 +204,11 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/*<FeatureCallout />*/}
           <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase language={language} />
+          {/*<TryOut />*/}
+          {/*<Description />*/}
+          {/*<Showcase language={language} />*/}
         </div>
       </div>
     );
