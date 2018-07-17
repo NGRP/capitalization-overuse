@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Basic Components": ["buttons"],
+    "High-Order Components": ["withForm-1"],
+    "Libraries and Setup": ["redux-saga-setup"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
